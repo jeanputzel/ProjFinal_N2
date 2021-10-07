@@ -19,3 +19,6 @@ Fluxograma:
 
 
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/89554714/136304198-c8674a84-6404-4754-99d9-2769aae2e564.png)
+____________________________________________
+Review 07/10:
+Implementar as sugestões conversadas no meet, mas o caminho está certo!
