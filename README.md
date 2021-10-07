@@ -10,3 +10,12 @@ ETAPA 1 - DATA: 05/10/21 -
 
 ______________________________________________
 Review 06/10: Ótimo, muito bom o fluxograma
+
+ETAPA 2 - DATA: 06/10/21 - 
+
+- COMPONENTES DO GRUPO: RENATO, ANDRÉ, JEAN V., MARCIA V., JOÃO PICCOLI.
+
+Fluxograma:
+
+
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/89554714/136304198-c8674a84-6404-4754-99d9-2769aae2e564.png)
