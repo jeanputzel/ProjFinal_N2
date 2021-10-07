@@ -8,3 +8,5 @@ ETAPA 1 - DATA: 05/10/21 -
 
 5 - ![Fluxuograma_lancheria drawio](https://user-images.githubusercontent.com/89554549/136126268-9eb6fd84-58fb-45b4-917f-573f675f7858.png)
 
+______________________________________________
+Review 06/10: Ótimo, muito bom o fluxograma
