@@ -2,7 +2,7 @@
 
 ETAPA 1 - DATA: 05/10/21 - 
 
-3 - COMPONENTES DO GRUPO: RENATO, ANDRÉ, JEAN V., MARCIA V., JOÃO PICOLLI.
+3 - COMPONENTES DO GRUPO: RENATO, ANDRÉ, JEAN V., MARCIA V., JOÃO PICCOLI.
 
 4 - https://www.mourosdog.com.br/   -  https://nightburguer.polvospot.com.br/loja/pedido
 
