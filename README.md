@@ -25,6 +25,8 @@ Implementar as sugestões conversadas no meet, mas o caminho está certo!
 
 ETAPA 3 - DATA: 07/10/21 - 
 
+COMPONENTES DO GRUPO: RENATO, ANDRÉ, JEAN V., MARCIA V., JOÃO PICCOLI.
+
 
 ![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/89554714/136480035-902ba02e-5e22-4a70-866f-1d227c540444.png)
 
