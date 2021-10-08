@@ -22,3 +22,10 @@ Fluxograma:
 ____________________________________________
 Review 07/10:
 Implementar as sugestões conversadas no meet, mas o caminho está certo!
+
+ETAPA 3 - DATA: 07/10/21 - 
+
+
+![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/89554714/136480035-902ba02e-5e22-4a70-866f-1d227c540444.png)
+
+![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/89554714/136480075-65311a3e-41c6-47fd-ae5b-a264f3f9e9fa.png)
