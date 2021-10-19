@@ -58,5 +58,24 @@ public void cadastro() {
                this.cpf + "\n";                          
     }
     //login
+    public void login(){ //pela programação definiremos também o login do adm, podendo modificar valores de algumas classes.
+        //definição do que vai ser lido na pag de login
+        String login;
+        String pass;
+        //leitura dos dados
+        login = ler.next();
+        pass = ler.next();
+        //
+        if(login.equals("adm")&& pass.equals("123")){
+            //pagina de administrador
+        }
+        else if(login.equals(this.nome)&& pass.equals(this.senha)){
+            //pode fazer pedido
+        }
+        else{
+            //acesso negado
+        }
 
-}
+        }
+    }
+

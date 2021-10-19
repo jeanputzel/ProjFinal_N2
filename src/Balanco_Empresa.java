@@ -1,8 +1,8 @@
-import java.util.ArrayList; // classe para usar com cardapio(pois não sabemos quantos pedidos ocorrerão num mês)
+import java.util.ArrayList;
 
 
 public class Balanco_Empresa {
-    
+
     public Double balanco(){
         
         double resultado = 0;
