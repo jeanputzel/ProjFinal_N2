@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+*{
+  max-width: 100%;
+  margin: 0
+
+}
+body{
+  background-color: #003366;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: lightgray;
+  margin: 0px;
+  padding: 30px;
+  text-shadow: 0px 8px 30px lightgray;
+  margin-bottom: 10px;
+}
+
+.Dados{
+  background-color: #001a33;
+  width: 30%;
+  margin:auto;
+  padding: 10px;
+  height: 495px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px white;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color:aliceblue
+}
+.required{
+  background-color: gray;
+  color:white;
+  font-size:  20px;
+}
+input{
+  background-color: white;
+  border-radius: 4px;
+  padding: 7px;
+  margin: 8px;
+  border-bottom: none;
+  border-right: none;
+  box-shadow: 1px 1px 1px lightgray;
+  
+}
+.required:after{
+  content:" *";
+  color: red;
+}
+.tipo{
+  background-color: lightgray;
+  box-shadow: 1px 1px 1px black;
+  border-top: none;
+  border-left: none;
+}
+.voltar{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: -30px;
+}
+.voltar a{
+  text-decoration: none;
+  color:white;
+}
+.voltar:hover{
+  text-decoration: underline;
+}
+.footer{      
+  background-color: #001a33;
+  clear: both;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color:white;
+  position: center;
+  width:100%;
+  color: white;
+  }  
+.container{
+
+  height: 180px;
+  padding: 2.5%; 
+  width: 95%; 
+  max-width: 1300px;
+}
+.desktop, .tablet, .mobile{ 
+  margin-inline-end: 100px;
+  float: left; 
+  position: relative; 
+  text-align:center; 
+  width: 31,57894736842105%; 
+}
+.desktop, .tablet{
+margin-right: 2,631578947368421%; 
+}
+.mobile{
+  margin-right: 0px;
+}
+img{
+  max-width: 100%;
+}
+.container .desktop figure, .container .tablefigure, .container .mobile figure{
+ width: 69,44444444444444%;
+}
+.login{
+background-color: #003366;
+border-radius: 10px;
+margin-left: 10px;
+}
+h4{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+button{
+    background-color: #001a33;
+    margin-top: 30px;
+    
+}
+@media screen and (max-width: 790px){
+  input{
+    padding:3px;
+    margin: 2px;
+  }
+  .tipo{
+    margin:0;
+    margin-top: 4px;
+  }
+}
