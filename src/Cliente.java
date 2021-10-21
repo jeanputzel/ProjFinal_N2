@@ -11,7 +11,6 @@ private String senha;
 //INSTANCIANDO
 Scanner ler = new Scanner(System.in);
 
-// _c é um identificador para a variavel q será passada por parâmetro
 public void cadastro() {
         System.out.println("Nome:");
         this.nome = ler.next();
@@ -22,11 +21,11 @@ public void cadastro() {
 
             System.out.println("CPF:");
             this.cpf = ler.next();
-            if(cpf.length() != 8){
+            if(cpf.length() != 11){
                 System.out.println("CPF inválido, favor digitar 8 números.");
             }
     
-        }while(cpf.length() != 8);
+        }while(cpf.length() != 11);
         
         System.out.println("E-mail:");
         this.email = ler.next();
@@ -71,9 +70,6 @@ public void cadastro() {
     //login
     public int login(String login, String pass){ //pela programação definiremos também o login do adm, podendo modificar valores de algumas classes.
 
-        login = ler.next();
-        pass = ler.next();
-        //
         if(login.equals("adm")&& pass.equals("123")){
             //pagina de administrador (numero 1)
             return 1;

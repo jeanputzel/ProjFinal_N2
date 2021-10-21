@@ -12,11 +12,12 @@ public class MainLancheria {
         int escolha_cardapio;
         int contador_pessoas = 0; // contador de pessoas (delimitado até 100)
         boolean login = false;
+
         do{
 
         System.out.println("Digite o que deseja fazer:");
-        System.out.println("1-Cadastrar");
-        System.out.println("2-Login");
+        System.out.println("1- Cadastrar");
+        System.out.println("2- Login");
         System.out.println("3- Fazer pedido");
         System.out.println("4- Ir para o carrinho");
         System.out.println("5- Deslogar");
@@ -42,6 +43,7 @@ public class MainLancheria {
                 do{
                     if(cliente[cont].login(logar, pass) == 1){
                         // pag administrador
+                        login = true;
                     }
 
                     else if(cliente[cont].login(logar, pass) == 2){
@@ -60,33 +62,45 @@ public class MainLancheria {
                 if(login == true){
 
                     do{
-                        int i; // contador dos fors para mostrar o cardapio
-                        System.out.println("O que deseja pedir - Digite 0 caso queira sair do menu");
+                        int i; // contador dos fors para mostrar o cardápio
+                        System.out.println("O que deseja pedir - \n Digite um número negativo caso queira sair do menu \n");
                         System.out.println("XIS: \n");
 
                         for (i = 0; i <= 7; i++);{
-                        System.out.println(c1.getProduto(i) + "R$ " + c1.getPreco(i));
+                        System.out.println((i+1) + "- " + c1.getProduto(i) + "R$ " + c1.getPreco(i));
                         }
                         System.out.println("\n DOGS: \n");
 
                         for (i = 8; i <= 9; i++);{
-                            System.out.println(c1.getProduto(i) + "R$ " + c1.getPreco(i));
+                            System.out.println((i+1) + "- " + c1.getProduto(i) + "R$ " + c1.getPreco(i));
                         }
 
                         System.out.println("\n BEBIDAS: \n");
 
                         for (i = 10; i <= 15; i++);{
-                            System.out.println(c1.getProduto(i) + "R$ " + c1.getPreco(i));
+                            System.out.println((i+1) + "- " + c1.getProduto(i) + "R$ " + c1.getPreco(i));
                         }
 
                         System.out.println("\n PORÇÕES: \n");
 
                         for (i = 16; i <= 21; i++);{
-                            System.out.println(c1.getProduto(i) + "R$ " + c1.getPreco(i));
+                            System.out.println((i+1) + "- " + c1.getProduto(i) + "R$ " + c1.getPreco(i));
                         }
 
                         escolha_cardapio = ler.nextInt();
-                    }while(escolha_cardapio != 0);
+                        escolha_cardapio--;
+                        if(escolha_cardapio >0 && escolha_cardapio < 23){
+
+                            System.out.println("\n Digite a quantidade:");
+                            c1.setQuantidade(ler.nextInt(), i);
+
+                        }
+
+                        if(escolha_cardapio > 22){
+                            System.out.println("Número inválido, favor digitar novamente");
+                        }
+                        
+                    }while(escolha_cardapio < 0);
 
                 }
                 else{
@@ -96,7 +110,12 @@ public class MainLancheria {
                 break;
             
             case 4:
-                
+                    
+                    for(int j = 0; j <=21; j++){
+                        if(c1.getQuantidade(j) != 0){
+                            System.out.println(c1.getProduto(j) + " qtd" + c1.getQuantidade(j));
+                        }
+                    }
                 break;
             
             case 5:
