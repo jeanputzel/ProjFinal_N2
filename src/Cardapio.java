@@ -1,9 +1,30 @@
 public class Cardapio {
-   private String[] produto = new String[22];
+   private String[] produto = {  "xis salada",
+                                 "xis bacon",
+                                 "xis atum",
+                                 "xis bagunça",
+                                 "xis calabresa",
+                                 "xis carne de panela",
+                                 "xis estrogofe",
+                                 "xis filé mignon",
+                                 "Dog 1 Salsicha",
+                                 "Dogão 2 Salsicha",
+                                 "Água sem gás",
+                                 "Pepsi 2L",
+                                 "Coca 2L",
+                                 "Polar Latão",
+                                 "Skol Latão",
+                                 "Água com gás",
+                                 "Batata frita com queijo",
+                                 "Cebola Frita",
+                                 "Picadão",
+                                 "Polenta Frita",
+                                 "Batata Frita",
+                                 "Bacon"};
    private Double[] preco = new Double[22];
    private int[] quantidade = new int[22];
    private Double valor_final = 0.0;
-   private Double valor_para_balanço = 0.0;
+   private Double valor_para_balanco = 0.0;
 
    //definição de valores abaixo
       //XIS
@@ -78,15 +99,15 @@ public class Cardapio {
    }
 
    public void comprafinalizada(){ //para utilizar no balanço
-      this.valor_para_balanço = this.valor_para_balanço + this.valor_final;
+      this.valor_para_balanco = this.valor_para_balanco + this.valor_final;
    }
    
    public void limparValorParaBalanco(){
-      this.valor_para_balanço = 0.0;
+      this.valor_para_balanco = 0.0;
    } 
 
    public Double getValorParaBalanco(){
-      return this.valor_para_balanço;
+      return this.valor_para_balanco;
    }
 
 }
